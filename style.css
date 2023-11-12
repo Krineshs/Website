@@ -131,7 +131,7 @@ button:hover {
     display: block;
     width: 24px;
     height: 24px;
-    border: solid black;
+    border: solid rgb(0, 0, 0);
     border-width: 0 4px 4px 0;
     transform: rotate(45deg);
     margin: 0 auto;
@@ -146,4 +146,22 @@ button:hover {
  
 }
 }
+
+.about-me-container {
+    text-align: center;
+}
+
+
+.about-me h3{
+    font-size: 1rem;
+    margin-bottom: 5rem;
+}
+
+.about-me p {
+    font-size: 1.2rem; 
+    line-height: 1.5;
+    color: #000000;
+    margin-bottom: 2rem;
+}
+
 
