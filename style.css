@@ -16,17 +16,17 @@ html, body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: grey;
+    background-color: rgb(0, 0, 0);
     border-radius: 10px; 
 }
 
 ::-webkit-scrollbar-track {
-    background-color: wheat; 
+    background-color: rgb(175, 175, 175); 
 }
 
 nav {
     height: 80px;
-    background: wheat;
+    background: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,7 +48,9 @@ nav a {
 }
 
 nav a:hover {
-    color: #fff;
+    color: wheat;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
 .title {
@@ -84,10 +86,10 @@ nav a:hover {
 
 button {
     padding: 1rem 3rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     border: 2px solid black; 
-    color: black;
-    background: wheat;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
     cursor: pointer;
     border-radius: 50px;
     transition: background 0.3s ease; 
@@ -98,8 +100,15 @@ button:hover {
     color: black; 
 }
 
+.wave-gif {
+    position: absolute; /* need to make reactive*/
+    bottom: -35px;
+    right: 0;
+}
+
+
 .about-me {
-    background: wheat; /*update this when done, maybe wheat?*/
+    background: rgb(253, 232, 193); /*update this when done, maybe wheat?*/
     padding: 3rem calc((100vw - 1300px) / 2);
 }
 
